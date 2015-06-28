@@ -1,0 +1,63 @@
+/*
+ * Copyright (C) 2015 Andrew Henderson - http://www.beaglesnes.org
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ */
+
+&ocp {
+	/* These are the GPIO button inputs */
+	/* GPIO2[2], export 66 */
+	P8_07_pinmux {
+		mode = "gpio_pd";
+	};
+	/* GPIO2[3], export 67 */
+	P8_08_pinmux {
+		mode = "gpio_pd";
+	};
+	/* GPIO2[5], export 69 */
+	P8_09_pinmux {
+		mode = "gpio_pd";
+	};
+	/* GPIO2[4], export 68 */
+	P8_10_pinmux {
+		mode = "gpio_pd";
+	};
+	/* GPIO1[13], export 45 */
+	P8_11_pinmux {
+		mode = "gpio_pd";
+	};
+	/* GPIO1[12], export 44 */
+	P8_12_pinmux {
+		mode = "gpio_pd";
+	};
+	/* GPIO0[23], export 23 */
+	P8_13_pinmux {
+		mode = "gpio_pd";
+	};
+	/* GPIO0[26], export 26 */
+	P8_14_pinmux {
+		mode = "gpio_pd";
+	};
+	/* GPIO1[15], export 47 */
+	P8_15_pinmux {
+		mode = "gpio_pd";
+	};
+	/* GPIO1[14], export 46 */
+	P8_16_pinmux {
+		mode = "gpio_pd";
+	};
+	/* GPIO0[27], export 27 */
+	P8_17_pinmux {
+		mode = "gpio_pd";
+	};
+	/* GPIO2[1], export 65 */
+	P8_18_pinmux {
+		mode = "gpio_pd";
+	};
+	/* GPIO0[22], export 22 */
+	P8_19_pinmux {
+		mode = "gpio_pd";
+	};
+};
+

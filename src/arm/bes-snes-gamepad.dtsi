@@ -1,0 +1,28 @@
+/*
+ * Copyright (C) 2015 Andrew Henderson - http://www.beaglesnes.org
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ */
+
+&ocp {
+	/* These are the GPIOs used by the PRU for native 
+	   interfacing with the SNES gamepads. */
+	/* GPIO0[30], export 30 */
+	P9_11_pinmux {
+		mode = "gpio_pd";
+	};
+	/* GPIO0[31], export 31 */
+	P9_13_pinmux {
+		mode = "gpio_pd";
+	};
+	/* GPIO0[5], export 5 */
+	P9_17_pinmux {
+		mode = "gpio_pd";
+	};
+	/* GPIO0[4], export 4 */
+	P9_18_pinmux {
+		mode = "gpio_pd";
+	};
+};
+
