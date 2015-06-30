@@ -46,7 +46,7 @@
 
 #include "am335x-boneblack-emmc.dtsi"
 /* HDMI: with audio */
-#include "am335x-boneblack-nxp-hdmi-audio.dtsi"
+/* #include "am335x-boneblack-nxp-hdmi-audio.dtsi" */
 /* HDMI: without audio */
 /* #include "am335x-boneblack-nxp-hdmi-no-audio.dtsi" */
 
@@ -83,7 +83,7 @@
 /* http://elinux.org/CircuitCo:BeagleBone_LCD7 */
 /* am335x-boneblack: emmc has to be disabled for lcd7-01-00a2 */
 /* #include "am335x-bone-lcd7-01-00a2.dtsi" */
-/* #include "am335x-bone-lcd7-01-00a3.dtsi" */
+#include "am335x-bone-lcd7-01-00a3.dtsi"
 
 /* http://www.chipsee.com/product/evm/beagle/beaglebone-black-expansion-capacitive.html */
 /* #include "am335x-bone-bbb-exp-c.dtsi" */
